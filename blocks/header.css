@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.header__logo {
+  width: 188px;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    width: 254px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    padding: 34px 0;
+  }
+}
