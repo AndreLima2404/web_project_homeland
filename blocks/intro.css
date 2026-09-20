@@ -33,17 +33,26 @@
 @media (min-width: 768px) {
   .intro {
     padding: 60px 24px 0;
+    text-align: center;
   }
 
   .intro__title {
     font-size: 45px;
     line-height: 49px;
     max-width: 707px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .intro__quote,
   .intro__text {
     max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro__author {
+    text-align: center;
   }
 }
 
@@ -52,6 +61,7 @@
     max-width: 984px;
     margin: 0 auto;
     padding: 76px 0 0;
+    text-align: left;
   }
 
   .intro__title {
@@ -59,10 +69,18 @@
     line-height: 58px;
     max-width: 830px;
     margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .intro__quote,
   .intro__text {
     max-width: 722px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .intro__author {
+    text-align: right;
   }
 }

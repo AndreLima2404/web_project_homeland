@@ -11,7 +11,7 @@
 @media (min-width: 768px) {
   .footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 30px 24px;
   }
 }
